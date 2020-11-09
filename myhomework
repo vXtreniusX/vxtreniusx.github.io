@@ -1,0 +1,17 @@
+<html>
+	  <head>
+		<title>Zadanie Domowe</title>
+	  </head>
+	<body>
+    To samo w sobie to podstrona.<br>
+    Tabela:<br>
+	<table border=1>
+			<tr>
+			  <td><b>Kolumna1</b></td><td><b>Kolumna2</b></td>
+			</tr>
+			<tr>
+			  <td><b>linia1</b></td><td><b>linia2</b></td>
+			</tr>
+	</table>
+	</body>
+</html>
