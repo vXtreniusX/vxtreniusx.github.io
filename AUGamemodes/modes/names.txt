@@ -1,0 +1,7 @@
+"modes/hide-seek.html"
+"modes/color-mode.html"
+"modes/dead-by-daylight.html"
+"modes/frantic.html"
+"modes/murder-she-wrote.html"
+"modes/small-talk.html"
+"modes/monster-mode.html"
