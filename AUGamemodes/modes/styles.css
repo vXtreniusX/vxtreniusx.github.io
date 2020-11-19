@@ -3,10 +3,9 @@ html {
   color: #FFFFFF;
 }
 
-a {
-  color: #FFFFFF;
-  text-decoration: none;
-} 
+ul.a {
+  list-style-type: square;
+}
 
 ul {
   list-style-type: square;
