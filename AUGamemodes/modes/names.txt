@@ -1,5 +1,3 @@
-Reference only - this file can be edited/deleted
-
 "modes/hide-seek.html"
 "modes/color-mode.html"
 "modes/dead-by-daylight.html"
