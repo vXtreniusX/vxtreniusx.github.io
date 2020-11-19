@@ -7,3 +7,7 @@ a {
   color: #FFFFFF;
   text-decoration: none;
 } 
+
+ul {
+  list-style-type: square;
+}
