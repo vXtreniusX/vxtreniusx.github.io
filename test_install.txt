@@ -1,1 +1,5 @@
-print("It works!")
+print("\n"*100)
+print("This is an test installer, that does currentily absolutely nothing!")
+print("I was testing online installation, and stuff.")
+print("I'm running from run.install file, that will be removed after this script finishes.")
+print("This command automatically installed python 3 and curl (used in this command)")
