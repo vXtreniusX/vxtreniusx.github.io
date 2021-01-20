@@ -524,8 +524,8 @@ class RaspberryJamMod {
             moveMenu: [{text:"przód",value:1}, {text:"tył",value:-1}],
             penMenu: [{text:"dół",value:1}, {text:"góra",value:0}],
             coordinateMenu: [{text:"x",value:0}, {text:"y",value:1}, {text:"z",value:2}],
-            turnMenu: [ "yaw", "pitch", "roll" ],
-            modeMenu: [{text:"exact",value:1},{text:"block",value:0}], /* Pause */
+            turnMenu: [ "odchylenie", "pochylenie", "przechylenie" ],
+            modeMenu: [{text:"dokładnie",value:1},{text:"bloku",value:0}],
             entityMenu: ["Item",
                 "XPOrb",
                 "LeashKnot",
@@ -738,7 +738,7 @@ class RaspberryJamMod {
                 {text:"wool white",value:"35,0"},
                 {text:"wool yellow",value:"35,4"}
             ]            
-            }
+            } /* Pause */
             }
         };
     };
