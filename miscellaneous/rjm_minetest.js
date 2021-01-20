@@ -364,7 +364,7 @@ class RaspberryJamMod {
             {
                     "opcode": "moveTurtle",
                     "blockType": "command",
-                    "text": "Porusz żółwia [dir] o [n] bloków",
+                    "text": "Porusz żółwia w [dir] o [n] bloków",
                     "arguments": {
                         "dir": {
                             "type": "number",
@@ -375,12 +375,12 @@ class RaspberryJamMod {
                             "type": "number",
                             "defaultValue": "1"
                         },
-                    } /* pause */
+                    } 
             },            
             {
                     "opcode": "leftTurtle",
                     "blockType": "command",
-                    "text": "turtle turn left [n] degrees",
+                    "text": "Obróć żółwia o [n] stopni w lewo",
                     "arguments": {
                         "n": {
                             "type": "number",
@@ -391,7 +391,7 @@ class RaspberryJamMod {
             {
                     "opcode": "rightTurtle",
                     "blockType": "command",
-                    "text": "turtle turn right [n] degrees",
+                    "text": "Obróć żółwia o [n] stopni w prawo",
                     "arguments": {
                         "n": {
                             "type": "number",
@@ -402,7 +402,7 @@ class RaspberryJamMod {
             {
                     "opcode": "turnTurtle",
                     "blockType": "command",
-                    "text": "turtle [dir] [n] degrees",
+                    "text": "[dir] o [n] stopni",
                     "arguments": {
                         "dir": {
                             "type": "string",
@@ -418,7 +418,7 @@ class RaspberryJamMod {
             {
                     "opcode": "pen",
                     "blockType": "command",
-                    "text": "turtle pen [state]",
+                    "text": "Pisak żółwia w [state]",
                     "arguments": {
                         "state": {
                             "type": "number",
@@ -430,7 +430,7 @@ class RaspberryJamMod {
             {
                     "opcode": "turtleBlock",
                     "blockType": "command",
-                    "text": "turtle pen block [b]",
+                    "text": "Ustaw blok żółwia [b]",
                     "arguments": {
                         "b": {
                             "type": "string",
@@ -453,7 +453,7 @@ class RaspberryJamMod {
             {
                     "opcode": "turtleThickness",
                     "blockType": "command",
-                    "text": "turtle pen thickness [n]",
+                    "text": "Ustaw grubość pisaka na [n]",
                     "arguments": {
                         "n": {
                             "type": "number",
@@ -464,7 +464,7 @@ class RaspberryJamMod {
             {
                     "opcode": "setTurtlePosition",
                     "blockType": "command",
-                    "text": "turtle move to ([x],[y],[z])",
+                    "text": "Teleportuj żółwia na (X: [x], Y: [y], Z: [z])",
                     "arguments": {
                         "x": {
                             "type": "number",
@@ -479,7 +479,7 @@ class RaspberryJamMod {
                             "defaultValue": 0
                         },
                     }
-            },            
+            },            /* Pause */
             {
                     "opcode": "resetTurtleAngle",
                     "blockType": "command",
