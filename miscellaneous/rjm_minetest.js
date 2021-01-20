@@ -360,30 +360,6 @@ class RaspberryJamMod {
                     "text": "move player to top",
                     "arguments": {
                     }
-            },         
-            {
-                    "opcode": "spawnEntity",
-                    "blockType": "command",
-                    "text": "spawn [entity] at ([x],[y],[z])",
-                    "arguments": {
-                        "entity": {
-                            "type": "string",
-                            "defaultValue": "Villager",
-                            "menu": "entityMenu"
-                        },
-                        "x": {
-                            "type": "number",
-                            "defaultValue": 0
-                        },
-                        "y": {
-                            "type": "number",
-                            "defaultValue": 0
-                        },
-                        "z": {
-                            "type": "number",
-                            "defaultValue": 0
-                        },
-                    }
             },
             {
                     "opcode": "moveTurtle",
