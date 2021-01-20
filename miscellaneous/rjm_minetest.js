@@ -593,7 +593,7 @@ class RaspberryJamMod {
                 {text:"łóżko",value:"26,0"},
                 {text:"skała macierzysta",value:"7,0"},
                 {text:"półka na książki",value:"47,0"},
-                {text:"blok cegieł",value:"45,0"},
+                {text:"cegły",value:"45,0"},
                 {text:"kaktus",value:"81,0"},
                 {text:"dywan czarny",value:"171,15"},
                 {text:"dywan niebieski",value:"171,11"},
@@ -613,16 +613,16 @@ class RaspberryJamMod {
                 {text:"dywan żółty",value:"171,4"},
                 {text:"skrzynia",value:"54,0"},
                 {text:"glina",value:"82,0"},
-                {text:"blok węglowy",value:"173,0"},
+                {text:"blok węgla",value:"173,0"},
                 {text:"Rudy węgla",value:"16,0"},
                 {text:"bruk",value:"4,0"},
                 {text:"pajęczyna",value:"30,0"},
-                {text:"Stół Rzemieślniczy",value:"58,0"},
+                {text:"stół szemieślniczy",value:"58,0"},
                 {text:"diamentowy blok",value:"57,0"},
                 {text:"ruda diamentu",value:"56,0"},
-                {text:"brud",value:"3,0"},
-                {text:"żelazko do drzwi",value:"71,0"},
-                {text:"drzwi drewniane",value:"64,0"},
+                {text:"ziemia",value:"3,0"},
+                {text:"żelazne drzwi",value:"71,0"},
+                {text:"drewniane drzwi",value:"64,0"},
                 {text:"podwójna trawa wysoka",value:"175,2"},
                 {text:"pole uprawne",value:"60,0"},
                 {text:"furtka",value:"107,0"},
@@ -630,8 +630,8 @@ class RaspberryJamMod {
                 {text:"ogień",value:"51,0"},
                 {text:"kwiat cyjan",value:"38,0"},
                 {text:"kwiat żółty",value:"37,0"},
-                {text:"piec aktywny",value:"62,0"},
-                {text:"piec nieaktywny",value:"61,0"},
+                {text:"piec palący się",value:"62,0"},
+                {text:"piec niepalący się",value:"61,0"},
                 {text:"tafla szkła",value:"102,0"},
                 {text:"szkło",value:"20,0"},
                 {text:"blok blasku",value:"89,0"},
@@ -640,22 +640,22 @@ class RaspberryJamMod {
                 {text:"trawa wysoka",value:"31,0"},
                 {text:"trawa",value:"2,0"},
                 {text:"żwir",value:"13,0"},
-                {text:"utwardzona glina barwiona na czarno",value:"159,15"},
-                {text:"utwardzona glina barwiona na niebiesko",value:"159,11"},
-                {text:"utwardzona glina barwiona na brązowo",value:"159,12"},
-                {text:"utwardzona glina barwiona na niebiesko",value:"159,9"},
-                {text:"utwardzona glina poplamiona na szaro",value:"159,7"},
-                {text:"utwardzona glina barwiona na zielono",value:"159,13"},
-                {text:"utwardzona glina barwiona na jasnoniebiesko",value:"159,3"},
-                {text:"utwardzona glina barwiona na jasnoszary",value:"159,8"},
-                {text:"wapno barwione utwardzoną gliną",value:"159,5"},
-                {text:"utwardzona glina barwiona na kolor magenta",value:"159,2"},
-                {text:"utwardzona glina barwiona na pomarańczowo",value:"159,1"},
-                {text:"utwardzona glina barwiona na różowo",value:"159,6"},
-                {text:"utwardzona glina barwiona na fioletowo",value:"159,10"},
-                {text:"utwardzona glina barwiona na czerwono",value:"159,14"},
-                {text:"utwardzona glina barwiona na biało",value:"159,0"},
-                {text:"utwardzona glina barwiona na żółto",value:"159,4"},
+                {text:"czarna utwardzona glina",value:"159,15"},
+                {text:"niebieska utwardzona glina",value:"159,11"},
+                {text:"brązowa utwardzona glina",value:"159,12"},
+                {text:"cyjanowa utwardzona glina",value:"159,9"},
+                {text:"szara utwardzona glina",value:"159,7"},
+                {text:"zielona utwardzona glina",value:"159,13"},
+                {text:"jasnoniebieska utwardzona glina",value:"159,3"},
+                {text:"jasnoszara utwardzona glina",value:"159,8"},
+                {text:"limonkowa utwardzona glina",value:"159,5"},
+                {text:"magentowa utwardzona glina",value:"159,2"},
+                {text:"pomarańczowa utwardzona glina",value:"159,1"},
+                {text:"różowa utwardzona glina",value:"159,6"},
+                {text:"fioletowa utwardzona glina",value:"159,10"},
+                {text:"czerwona utwardzona glina",value:"159,14"},
+                {text:"biała utwardzona glina",value:"159,0"},
+                {text:"żółta utwardzona glina",value:"159,4"},
                 {text:"lód",value:"79,0"},
                 {text:"żelazny blok",value:"42,0"},
                 {text:"Ruda żelaza",value:"15,0"},
@@ -711,7 +711,7 @@ class RaspberryJamMod {
                 {text:"kamienny guzik",value:"77,0"},
                 {text:"podwójna płyta kamienna",value:"43,0"},
                 {text:"Kamienna płyta",value:"44,0"},
-                {text:"złóg",value:"1,0"},
+                {text:"kamień",value:"1,0"},
                 {text:"trzcina cukrowa",value:"83,0"},
                 {text:"słonecznik",value:"175,0"},
                 {text:"TNT",value:"46,0"},
@@ -736,7 +736,7 @@ class RaspberryJamMod {
                 {text:"fioletowy wełniany",value:"35,10"},
                 {text:"wełniana czerwona",value:"35,14"},
                 {text:"wełna biała",value:"35,0"},
-                {text:"wełniana żółta",value:"35,4"} /* Pause */
+                {text:"wełniana żółta",value:"35,4"} 
             ]            
             } 
             }
@@ -802,13 +802,13 @@ class RaspberryJamMod {
     };
     
     turnTurtle({dir,n}) {
-        if (dir=="right" || dir=="yaw") {
+        if (dir=="prawo" || dir=="odchylenie") {/* Pause */
             this.turtle.matrix = this.turtle.mmMultiply(this.turtle.matrix, this.turtle.yawMatrix(n));    
         }
-        else if (dir=="pitch") {
+        else if (dir=="nachylenie") {
             this.turtle.matrix = this.turtle.mmMultiply(this.turtle.matrix, this.turtle.pitchMatrix(n));    
         }
-        else { // if (dir=="roll") {
+        else { // if (dir=="przechylenie") {
             this.turtle.matrix = this.turtle.mmMultiply(this.turtle.matrix, this.turtle.rollMatrix(n));    
         }
     };
