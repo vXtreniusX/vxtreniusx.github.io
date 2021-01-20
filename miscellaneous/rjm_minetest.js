@@ -268,11 +268,11 @@ class RaspberryJamMod {
                             "defaultValue": 0,
                         },
                     }
-            },    /* pause */            
+            },          
             {
                     "opcode": "setBlock",
                     "blockType": "command",
-                    "text": "put [b] at ([x],[y],[z])",
+                    "text": "Umieść [b] na pozycji (X: [x], Y: [y], Z: [z])",
                     "arguments": {
                         "x": {
                             "type": "number",
@@ -319,7 +319,7 @@ class RaspberryJamMod {
             {
                     "opcode": "setPlayerPos",
                     "blockType": "command",
-                    "text": "move player to ([x],[y],[z])",
+                    "text": "Teleportuj Gracza na pozycję (X: [x], Y: [y], Z: [z])",
                     "arguments": {
                         "x": {
                             "type": "number",
@@ -338,7 +338,7 @@ class RaspberryJamMod {
             {
                     "opcode": "movePlayer",
                     "blockType": "command",
-                    "text": "move player by ([dx],[dy],[dz])",
+                    "text": "Porusz gracza o (X: [dx], Y: [dy], Z: [dz])",
                     "arguments": {
                         "dx": {
                             "type": "number",
@@ -357,14 +357,14 @@ class RaspberryJamMod {
             {
                     "opcode": "movePlayerTop",
                     "blockType": "command",
-                    "text": "move player to top",
+                    "text": "Przenieś gracza na najwyższy blok",
                     "arguments": {
                     }
             },
             {
                     "opcode": "moveTurtle",
                     "blockType": "command",
-                    "text": "turtle [dir] [n]",
+                    "text": "Porusz żółwia [dir] o [n] bloków",
                     "arguments": {
                         "dir": {
                             "type": "number",
@@ -375,7 +375,7 @@ class RaspberryJamMod {
                             "type": "number",
                             "defaultValue": "1"
                         },
-                    }
+                    } /* pause */
             },            
             {
                     "opcode": "leftTurtle",
