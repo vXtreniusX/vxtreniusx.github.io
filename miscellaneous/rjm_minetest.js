@@ -88,12 +88,12 @@ class RaspberryJamMod {
     getInfo() {
         return {
             "id": "RaspberryJamMod",
-            "name": "Minecraft",
+            "name": "Minetest",
             
             "blocks": [{
                     "opcode": "connect_p",
                     "blockType": "command",
-                    "text": "connect to Minecraft on [ip]",
+                    "text": "connect to Minetest on [ip]",
                     "arguments": {
                         "ip": {
                             "type": "string",
