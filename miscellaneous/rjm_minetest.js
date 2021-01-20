@@ -479,11 +479,11 @@ class RaspberryJamMod {
                             "defaultValue": 0
                         },
                     }
-            },            /* Pause */
+            },            
             {
                     "opcode": "resetTurtleAngle",
                     "blockType": "command",
-                    "text": "turtle reset to [n] degrees",
+                    "text": "Resetuj kierunek żółwia na [n] stopni",
                     "arguments": {
                         "n": {
                             "type": "number",
@@ -494,38 +494,38 @@ class RaspberryJamMod {
             {
                     "opcode": "saveTurtle",
                     "blockType": "command",
-                    "text": "turtle save",
+                    "text": "Zapisz żółwia",
                     "arguments": {
                     }
             },            
             {
                     "opcode": "restoreTurtle",
                     "blockType": "command",
-                    "text": "turtle restore",
+                    "text": "Przywróć żółwia z zapisu",
                     "arguments": {
                     }
             },            
             {
                     "opcode": "suspend",
                     "blockType": "command",
-                    "text": "suspend drawing",
+                    "text": "Przestań rysować",
                     "arguments": {
                     }
             },            
             {
                     "opcode": "resume",
                     "blockType": "command",
-                    "text": "resume drawing",
+                    "text": "Rysuj dalej",
                     "arguments": {
                     }
             },            
             ],
         "menus": {
-            moveMenu: [{text:"forward",value:1}, {text:"back",value:-1}],
-            penMenu: [{text:"down",value:1}, {text:"up",value:0}],
+            moveMenu: [{text:"przód",value:1}, {text:"tył",value:-1}],
+            penMenu: [{text:"dół",value:1}, {text:"góra",value:0}],
             coordinateMenu: [{text:"x",value:0}, {text:"y",value:1}, {text:"z",value:2}],
             turnMenu: [ "yaw", "pitch", "roll" ],
-            modeMenu: [{text:"exact",value:1},{text:"block",value:0}],
+            modeMenu: [{text:"exact",value:1},{text:"block",value:0}], /* Pause */
             entityMenu: ["Item",
                 "XPOrb",
                 "LeashKnot",
