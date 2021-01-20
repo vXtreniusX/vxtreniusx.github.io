@@ -402,12 +402,12 @@ class RaspberryJamMod {
             {
                     "opcode": "turnTurtle",
                     "blockType": "command",
-                    "text": "[dir] o [n] stopni",
+                    "text": "[dir] żółwia o [n] stopni",
                     "arguments": {
                         "dir": {
                             "type": "string",
                             "menu": "turnMenu",
-                            "defaultValue": "pitch"
+                            "defaultValue": "odchylenie"
                         },
                         "n": {
                             "type": "number",
