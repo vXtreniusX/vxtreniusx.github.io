@@ -115,7 +115,7 @@ class RaspberryJamMod {
             {
                     "opcode": "blockByName",
                     "blockType": "reporter",
-                    "text": "block id of [name]",
+                    "text": "ID bloku [name]",
                     "arguments": {
                         "name": {
                             "type": "string",
@@ -127,7 +127,7 @@ class RaspberryJamMod {
             {
                     "opcode": "getBlock",
                     "blockType": "reporter",
-                    "text": "block id at ([x],[y],[z])",
+                    "text": "ID bloku na pozycji (X: [x], Y: [y], Z: [z])",
                     "arguments": {
                         "x": {
                             "type": "number",
@@ -182,7 +182,7 @@ class RaspberryJamMod {
             {
                     "opcode": "getPlayerX",
                     "blockType": "reporter",
-                    "text": "player x [mode] position",
+                    "text": "Pozycja Y [mode] gracza",
                     "arguments": {
                         "mode": {
                             "type": "number",
@@ -194,7 +194,7 @@ class RaspberryJamMod {
             {
                     "opcode": "getPlayerY",
                     "blockType": "reporter",
-                    "text": "player y [mode] position",
+                    "text": "Pozycja Y [mode] gracza",
                     "arguments": {
                         "mode": {
                             "type": "number",
@@ -206,7 +206,7 @@ class RaspberryJamMod {
             {
                     "opcode": "getPlayerZ",
                     "blockType": "reporter",
-                    "text": "player z [mode] position",
+                    "text": "Pozycja Z [mode] gracza",
                     "arguments": {
                         "mode": {
                             "type": "number",
@@ -218,7 +218,7 @@ class RaspberryJamMod {
             {
                     "opcode": "getPlayerVector",
                     "blockType": "reporter",
-                    "text": "player vector [mode] position",
+                    "text": "Pozycja [mode] wektoru gracza ",
                     "arguments": {
                         "mode": {
                             "type": "number",
@@ -230,14 +230,14 @@ class RaspberryJamMod {
             {
                     "opcode": "getHit",
                     "blockType": "reporter",
-                    "text": "sword hit vector position",
+                    "text": "pozycja wektora uderzenia mieczem",
                     "arguments": {
                     }
             },            
             {
                     "opcode": "extractFromVector",
                     "blockType": "reporter",
-                    "text": "[coordinate]-coordinate of vector [vector]",
+                    "text": "Pozycja [coordinate] wektora [vector]",
                     "arguments": {
                         "coordinate": {
                             "type": "number",
@@ -253,7 +253,7 @@ class RaspberryJamMod {
             {
                     "opcode": "makeVector",
                     "blockType": "reporter",
-                    "text": "vector ([x],[y],[z])",
+                    "text": "wektor ([x],[y],[z])",
                     "arguments": {
                         "x": {
                             "type": "number",
@@ -268,7 +268,7 @@ class RaspberryJamMod {
                             "defaultValue": 0,
                         },
                     }
-            },                
+            },    /* pause */            
             {
                     "opcode": "setBlock",
                     "blockType": "command",
