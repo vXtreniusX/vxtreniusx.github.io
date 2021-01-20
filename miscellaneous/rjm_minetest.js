@@ -93,7 +93,7 @@ class RaspberryJamMod {
             "blocks": [{
                     "opcode": "connect_p",
                     "blockType": "command",
-                    "text": "connect to Minetest on [ip]",
+                    "text": "Połącz się z grą na [ip]",
                     "arguments": {
                         "ip": {
                             "type": "string",
@@ -104,11 +104,11 @@ class RaspberryJamMod {
             {
                     "opcode": "chat",
                     "blockType": "command",
-                    "text": "say in chat [msg]",
+                    "text": "Wyślij na chat [msg]",
                     "arguments": {
                         "msg": {
                             "type": "string",
-                            "defaultValue": "Hello, World!"
+                            "defaultValue": "Witaj, Świecie!"
                         },
                     }
             },            
