@@ -182,7 +182,7 @@ class RaspberryJamMod {
             {
                     "opcode": "getPlayerX",
                     "blockType": "reporter",
-                    "text": "Pozycja Y [mode] gracza",
+                    "text": "Pozycja X [mode] gracza",
                     "arguments": {
                         "mode": {
                             "type": "number",
